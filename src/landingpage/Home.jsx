@@ -6,7 +6,6 @@ import Button from 'react-bootstrap/Button';
 const Home = () => {
     return(
 <> 
-       <Button>hello</Button>
         <Navbarheader></Navbarheader>
 </>
     )

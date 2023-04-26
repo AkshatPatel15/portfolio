@@ -1,6 +1,15 @@
 .App {
-  text-align: center;
-}
+   
+  height: 100vh;
+  background-image: url('../public/IMG_1480.JPEG');
+  background-size: cover;
+  background-position:right center  ;
+  background-size: 1500px auto 100%;; 
+   background-repeat: no-repeat;
+
+
+
+  }
 
 .App-logo {
   height: 40vmin;

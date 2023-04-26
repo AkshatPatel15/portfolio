@@ -1,5 +1,14 @@
 .navbar-custom{
-    background-color: #FCD54A;
+    background-color: #ffca0c;
     color: black;
     font-weight: bold;
 }
+.me-auto{
+    font-weight: bold;
+    opacity: 1;
+}
+
+.button_navbarheader{
+    border-radius: 100%;
+}
+

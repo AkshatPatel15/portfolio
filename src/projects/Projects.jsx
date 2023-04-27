@@ -1,7 +1,9 @@
 const Projects = () => {
     return (
         <>
-       <Navbarheader></Navbarheader>
+         <div>hello from Projects</div>
         </>
       );
 }
+
+export default Projects;

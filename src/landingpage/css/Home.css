@@ -1,0 +1,42 @@
+.App {
+    height: 100%;
+  }
+  
+  .hero {
+    height: 100vh;
+    background-image: url('../../../public/IMG_1480.JPEG');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .Navbarheader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 1;
+  } 
+  /* In this example, we define a functional component called App that returns a fixed Header component and a hero section with a full-screen photo background. The Header component can contain your navigation links, logo, or any other content you want to include in the fixed header.
+  
+  In the CSS, we set the height of the App container to 100% so that it fills the entire viewport. We also set the height of the hero section to 100vh, which makes it take up the full height of the viewport. We then set the background-image property to a random photo from Unsplash, but you can use any image you like. The background-size: cover property makes sure the image covers the full background of the hero section, and the display: flex and justify-content: center properties center the text in the middle of the section.
+  
+  To make the Header component fixed, we use the position: fixed property and set the top, left, and width properties to 0 and 100% respectively. We also set the z-index property to 1 to make sure the header stays on top of the hero section.
+  
+  This is just one example of how to create a landing page with a fixed header and full-screen photo background in React. You can customize the styles and content to fit your specific needs.
+  
+   */
+  
+  
+  
+  
+  

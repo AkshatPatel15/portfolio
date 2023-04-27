@@ -1,10 +1,10 @@
-import Navbarheader from '../Navbarheader'
+import "./Home.css"
 
 const Home = () => {
     return (
-        <>
-       <Navbarheader></Navbarheader>
-        </>
+        <div className='background-img'>
+          <div>hello from home</div>
+        </div>
       );
 }
 

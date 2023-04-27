@@ -1,11 +1,9 @@
-
-function Projects() {
+const Projects = () => {
     return (
-      <div className="App">
-       <>hello from Projects</>
-      </div>
-    );
-  }
-  
-  export default Projects;
-  
+        <>
+          <>this is from project</>
+        </>
+      );
+}
+
+export default  Projects;

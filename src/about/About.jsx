@@ -32,9 +32,12 @@ function About() {
                 </p>
               </Col>
            </Row>
-            <Row className="about_me_r2">
-              <Col>1 of 3
-              <img  className="img_section" src={call_logo} alt=""/>
+            <Row className="about_me_row2">
+              <Col>
+              <div>
+                <img  className="logo_section" src={call_logo} alt="call logo"/>
+                <p>+1 &05. 770. 0631</p>
+                </div>
               </Col>
               <Col>2 of 3</Col>
               <Col>3 of 3</Col>

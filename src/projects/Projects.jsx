@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const Projects = () => {
     return (
         <>
@@ -7,3 +8,5 @@ const Projects = () => {
 }
 
 export default  Projects;
+=======
+>>>>>>> parent of 09352fa (added roouting)

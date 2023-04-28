@@ -1,10 +1,10 @@
-import "./Home.css"
+import "./Home.css";
 
 const Home = () => {
     return (
-        <div className='background-img'>
-          <div>hello from home</div>
-        </div>
+      <div className="HomePage">
+        hello from Home
+    </div>
       );
 }
 

@@ -1,9 +1,10 @@
-/* .background-img{
-    height: 100vh;
-  background-image: url('../../public/IMG_1480.JPEG');
-  background-size: cover;
+.HomePage {
+  background-image: url('../../public/IMG_1480.jpeg');
+  height: 92vh;
+  background-repeat: no-repeat;
   background-position:right center  ;
-  background-size: 1500px auto 100%;; 
-   background-repeat: no-repeat;
+  background-size: cover;
 
-} */
+
+
+}

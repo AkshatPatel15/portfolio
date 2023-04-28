@@ -10,7 +10,7 @@ import Home from './landingpage/Home';
 
 const Navbarheader = () => {
 
-  const [activeTab, setActiveTab] = useState("Chart");
+  const [activeTab, setActiveTab] = useState("About");
 
   const handleSelect = (eventKey) => {
     setActiveTab(eventKey);

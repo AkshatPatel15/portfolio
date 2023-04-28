@@ -2,7 +2,6 @@
     background-color: rgb(255, 202, 12);
     color: rgb(0, 0, 0);
     font-weight: bold;
-    /* opacity: 0.7; */
 }
 .me-auto{
     font-weight: bold;
@@ -10,6 +9,6 @@
 }
 
 .button_navbarheader{
-    border-radius: 100%;
+    border-radius: 6%;
 }
 

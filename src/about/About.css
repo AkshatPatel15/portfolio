@@ -1,0 +1,36 @@
+.div_main{
+    background-color: black;
+}
+
+.img_section{
+height: 800px;
+}
+
+.Profile_img{
+    margin-top: 50px;
+    width: 60%;
+}
+
+.role_title{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 202, 12);
+}
+
+.about_me{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.9);
+}
+.about_me_p{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.9);
+}
+
+.about_me_r2{
+    margin-top: 30px;
+    background-color: rgb(115, 120, 120);
+    text-align: center;
+    color: rgba(206, 39, 39, 0.9);
+}

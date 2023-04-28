@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Button } from "react-bootstrap";
 import "./Home.css";
 
@@ -13,21 +12,8 @@ const Home = () => {
            <div className="btn_contact"><Button variant="dark">Contact</Button></div>
 
 </div>
-    </div>
-=======
-import Navbarheader from '../Navbarheader'
-
-const Home = () => {
-    return (
-        <>
-       <Navbarheader></Navbarheader>
-        </>
->>>>>>> parent of 09352fa (added roouting)
-      );
+    </div>)
 }
 
 export default Home;
-
-
-
 

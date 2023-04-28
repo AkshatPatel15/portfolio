@@ -3,9 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
+import { useState } from 'react';
+import Projects from './projects/Projects';
+import Home from './landingpage/Home';
 
 const Navbarheader = () => {
-<<<<<<< HEAD
 
   const [activeTab, setActiveTab] = useState("Home");
 
@@ -16,7 +18,7 @@ const Navbarheader = () => {
   let componentToRender;
   switch (activeTab) {
     case "About":
-      componentToRender = <About />;
+      // componentToRender = <About />;
       break;
     case "Projects":
       componentToRender = <Projects />;
@@ -34,8 +36,7 @@ const Navbarheader = () => {
       break;
   }
 
-=======
->>>>>>> parent of 09352fa (added roouting)
+
     return (
         <>
           <Navbar className='navbar-custom'>

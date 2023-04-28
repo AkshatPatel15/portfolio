@@ -1,9 +1,18 @@
+import { Container } from "react-bootstrap";
+import  Card  from "./Card";
+import "./Projects.css"
 
 function Projects() {
     return (
-      <div className="App">
-       <>hello from Projects</>
+      <Container>
+      <div className="Projects">
+      <div className="letest_work_text">Letest Work</div>
+      <div>
+        <Card></Card>
       </div>
+      </div>
+      </Container>
+
     );
   }
   

@@ -1,9 +1,56 @@
-/* .background-img{
-    height: 100vh;
+.HomePage {
   background-image: url('../../public/IMG_1480.JPEG');
-  background-size: cover;
+  height: 92vh;
+  background-repeat: no-repeat;
   background-position:right center  ;
-  background-size: 1500px auto 100%;; 
-   background-repeat: no-repeat;
+  background-size: cover;
+}
 
-} */
+.hi_text{
+  color: rgb(255, 202, 12);
+  
+font-size: 5rem;}
+
+.i_am_text{
+  color: white;
+  /* border: 2px solid white; */
+
+  font-size: 3rem;
+}
+
+.akshat_patel_text{
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.text_div{
+  width: 50vh;
+  position: absolute;
+  top: 30vh;
+  left: 100vh;
+}
+
+.software_developer_text{
+  font-size: 1.5rem;
+  line-height: 0;
+  color: white;
+
+
+}
+
+.btn_contact{
+  padding-top: 3rem;
+  float: right;
+}
+
+
+.btn_contact >Button::after{
+  content: '';
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 10px;
+}

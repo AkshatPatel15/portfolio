@@ -7,6 +7,7 @@
   .letest_work_text {
     font-size: 5rem;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     font-weight: bolder;
     border-bottom: .5rem solid rgb(255, 202, 12); 
     width: fit-content;

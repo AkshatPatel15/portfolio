@@ -10,7 +10,7 @@ import Home from './landingpage/Home';
 
 const Navbarheader = () => {
 
-  const [activeTab, setActiveTab] = useState("Home");
+  const [activeTab, setActiveTab] = useState("About");
 
   const handleSelect = (eventKey) => {
     setActiveTab(eventKey);
@@ -27,12 +27,6 @@ const Navbarheader = () => {
     case "Home":
       componentToRender = <Home />;
       break;
-    // case "Prediction":
-    //   componentToRender = <Prediction />;
-    //   break;
-    // case "Info":
-    //   componentToRender = <Info />;
-      // break;
     default:
       break;
   }
@@ -46,7 +40,6 @@ const Navbarheader = () => {
                 <Nav.Link eventKey="Home">Home</Nav.Link>
                 <Nav.Link eventKey="About">About</Nav.Link>
                 <Nav.Link eventKey="Projects">Projects</Nav.Link>
-                {/* <Nav.Link href="Hire Me">Hire Me</Nav.Link> */}
               </Nav>
               <Nav>
               <Button className='button_navbarheader' variant="dark">Contact Me</Button>

@@ -1,7 +1,8 @@
-// import "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/about/About.css"
+import "./About.css"
 import Container from 'react-bootstrap/Container';
 // import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
 import img2 from "../resources/about_img_2.jpg";
+
 
 // import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
 import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";

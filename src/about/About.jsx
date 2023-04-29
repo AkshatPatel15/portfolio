@@ -1,8 +1,15 @@
-import "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/about/About.css"
+// import "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/about/About.css"
 import Container from 'react-bootstrap/Container';
-import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
-import img2 from "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/resources/about_img_2.jpg";
-import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";
+// <<<<<<< HEAD
+// import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
+// import img2 from "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/resources/about_img_2.jpg";
+// import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";
+// =======
+// import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
+import img2 from "../resources/about_img_2.jpg";
+import { faMailForward, faMobile } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// >>>>>>> akshat
 
 function About() {
 

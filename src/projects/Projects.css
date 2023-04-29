@@ -1,15 +1,41 @@
 .Projects {
     display: flex;
     justify-content: center;
-    /* border: 2px solid; */
     flex-direction: column;
   }
   
   .letest_work_text {
     font-size: 5rem;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     font-weight: bolder;
     border-bottom: .5rem solid rgb(255, 202, 12); 
     width: fit-content;
   }
   
+  .card-main{
+padding: 10px;
+width: 1000px;
+  }
+
+  .cards-main{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+  }
+
+  .btn_contact{
+    padding-top: 3rem;
+    float: right;
+  }
+  
+  
+  .btn_contact >Button::after{
+    content: '';
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-left: 10px;
+  }

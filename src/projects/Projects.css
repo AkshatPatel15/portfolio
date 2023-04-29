@@ -12,3 +12,29 @@
     width: fit-content;
   }
   
+  .card-main{
+padding: 10px;
+width: 1000px;
+  }
+
+  .cards-main{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+  }
+
+  .btn_contact{
+    padding-top: 3rem;
+    float: right;
+  }
+  
+  
+  .btn_contact >Button::after{
+    content: '';
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-left: 10px;
+  }

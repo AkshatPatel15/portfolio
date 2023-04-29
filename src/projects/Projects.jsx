@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
-import  Card  from "./Card";
 import "./Projects.css"
+import Porjectcard from "./Porjectcard";
 
 function Projects() {
     return (
@@ -8,7 +8,7 @@ function Projects() {
       <div className="Projects">
       <div className="letest_work_text">Letest Work</div>
       <div>
-        <Card></Card>
+        <Porjectcard></Porjectcard>
       </div>
       </div>
       </Container>

@@ -1,7 +1,6 @@
 .Projects {
     display: flex;
     justify-content: center;
-    /* border: 2px solid; */
     flex-direction: column;
   }
   

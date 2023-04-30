@@ -13,7 +13,7 @@ function About() {
         <div className="maindiv">
             <div className="subdiv1">
               <div className="imgdiv"> 
-                <img src={img2} className="img" />
+                <img src={img2} className="img" alt = "img"/>
               </div>
               <div className="roletitle_div">
                 <div>

@@ -1,6 +1,5 @@
 import { Button, Card } from "react-bootstrap";
 import "./Projects.css"
-import Moreinfo from "./Moreinfo";
 
 
 function Porjectcard(props) {

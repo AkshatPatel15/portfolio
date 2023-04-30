@@ -1,16 +1,30 @@
 import { Container } from "react-bootstrap";
-import  Card  from "./Card";
 import "./Projects.css"
+import Porjectcard from "./Porjectcard";
+
+import Moreinfo from "./Moreinfo";
+import Projectsdict from "./Projectsdict";
 
 function Projects() {
     return (
       <Container>
       <div className="Projects">
       <div className="letest_work_text">Letest Work</div>
-      <div>
-        <Card></Card>
+      
+      <div className="cards-main">
+  {Projectsdict.map((project, index) => (
+    <Porjectcard
+      name={project.name}
+      description={project.description}
+      img={project.image}
+
+    />
+  ))}
+  
+</div>
       </div>
-      </div>
+      <Moreinfo></Moreinfo>
+
       </Container>
 
     );

@@ -1,15 +1,11 @@
-// import "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/about/About.css"
+import "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/about/About.css"
 import Container from 'react-bootstrap/Container';
-// <<<<<<< HEAD
-// import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
-// import img2 from "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/resources/about_img_2.jpg";
-// import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";
-// =======
-// import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
-import img2 from "../resources/about_img_2.jpg";
-import { faMailForward, faMobile } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// >>>>>>> akshat
+
+import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
+import img2 from "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/resources/about_img_2.jpg";
+import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";
+import Skillscard from "./Skillscard";
+
 
 function About() {
 
@@ -65,7 +61,11 @@ function About() {
 
             {/* section3 from heree */}
 
-            <div></div>
+           <div><Skillscard ></Skillscard></div>
+           <div><Skillscard name = "react Js" tag = {<IoLogoLinkedin></IoLogoLinkedin>}></Skillscard></div>
+           <div><Skillscard name = "react Js" tag = {<IoLogoLinkedin></IoLogoLinkedin>}></Skillscard></div>
+           <div><Skillscard name = "react Js" tag = {<IoLogoLinkedin></IoLogoLinkedin>}></Skillscard></div>
+
 
         </div>
       </Container>

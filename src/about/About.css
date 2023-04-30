@@ -96,3 +96,12 @@
     font-size: 20px;
     margin: 30px;
 }
+
+.subdiv3{
+    grid-template: auto;
+    
+}
+
+.skillicon{
+    font-size: 100px;
+}

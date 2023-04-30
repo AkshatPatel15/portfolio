@@ -1,19 +1,52 @@
 import { Container } from "react-bootstrap";
 import "./Projects.css"
-import movies from '../resources/netflix.png';
-import {FaReact} from 'react-icons/fa'
-import {BsBootstrap} from 'react-icons/bs';
-import {TbBrandPython} from 'react-icons/tb';
-import {TbBrandJavascript} from 'react-icons/tb';
 
-import {AiOutlineHtml5} from 'react-icons/ai';
+import { useParams } from "react-router-dom";
+import Projectsdict from "./Projectsdict";
 
 
 
 function Moreinfo() {
+
+  const { id } = useParams();
+  const project = Projectsdict.find((proj) => proj.name === id);
+  console.log(project)
     return (
+      
         <Container>
-      <div>
+          <div className="know-more-container">
+      <div className="know-more-card">
+        <h2 className="know-more-title">{project.name}</h2>
+        <img className="know-more-img" src={project.image} alt="project" />
+        <p className="know-more-description">{project.description}</p>
+
+        {Object.keys(project.dl).map((key) => (
+        <div className="dl-item">
+          <p className="dl-description">{project.dl[key]}</p>
+
+        </div>
+      ))}
+      {Object.keys(project.tools).map((key) => (
+  <div className="tool-item">
+    {project.tools[key]}
+    <span className="tool-name">{key}</span>
+  </div>
+))}
+        <div className="know-more-links">
+          {Object.keys(project.links).map((key) => (
+            <a
+              className="know-more-link"
+              href={project.links[key]}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {key}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+      {/* <div>
         <h1>Movies</h1>
 <p>Movies" is a web-based project developed using React, Flask, and API fetching from IMDb. The project aims to provide users with a comprehensive platform to search and explore movies, TV shows, and other cinematic content. The application integrates with IMDb's extensive database, allowing users to access information on thousands of movies and TV shows.
 
@@ -34,7 +67,7 @@ Overall, "Movies" is an impressive project that leverages cutting-edge web techn
         <TbBrandJavascript></TbBrandJavascript>
         <AiOutlineHtml5></AiOutlineHtml5>
         <p>NLTK</p>
-      </div>
+      </div> */}
       </Container>
     );
   }

@@ -23,7 +23,6 @@ function Projects() {
   
 </div>
       </div>
-      <Moreinfo></Moreinfo>
 
       </Container>
 

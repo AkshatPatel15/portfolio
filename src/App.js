@@ -1,15 +1,22 @@
-import { useState } from "react";
 import "./App.css";
-import Home from "./landingpage/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./about/About";
+import Home from "./landingpage/Home";
+import Projects from "./projects/Projects";
 import Navbarheader from "./Navbarheader";
-
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Navbarheader></Navbarheader>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        {/* <Route path="/contect" element={<About />} /> */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 

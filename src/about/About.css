@@ -10,6 +10,14 @@
     margin-left: 250px;
 }
 
+.name{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-bottom: .5rem solid rgb(255, 202, 12) ;
+    color: rgb(0, 0, 0);
+}
 .imgdiv{
     margin-top: 50px;
     justify-content: center;

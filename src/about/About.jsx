@@ -1,11 +1,12 @@
-import "./About.css"
+
+import "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/about/About.css"
 import Container from 'react-bootstrap/Container';
-// import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
-import img2 from "../resources/about_img_2.jpg";
 
-
-// import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
+import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
+import img2 from "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/resources/about_img_2.jpg";
 import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";
+import Skillscard from "./Skillscard";
+import Skillsdict from "./Skillsdict";
 
 function About() {
 
@@ -60,12 +61,19 @@ function About() {
             <p className="line"></p>
 
             {/* section3 from heree */}
-
-            <div></div>
-
+              <div className="cardclass">
+                  {Skillsdict.map((skill, index) => (
+                  <Skillscard 
+                    name={skill.skillname}
+                    logo={skill.logo} 
+                  />
+                    ))}
+              </div>
         </div>
       </Container>
+
     </div>
+
   );
 }
 export default About;

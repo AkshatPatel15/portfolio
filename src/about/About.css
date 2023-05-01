@@ -4,14 +4,10 @@
 
 .subdiv1{
     width: fit-content;
-    margin-top: 30px;
-    margin-right: 30px;
     display: flex;
     justify-content: center;
     color: #FFEC63;
-    margin-left: 80px;
-    
-    /* border:  0.2rem solid rgb(255, 255, 255); */
+    margin-left: 250px;
 }
 
 .imgdiv{
@@ -26,14 +22,13 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-.name{
-    font-size: 50px;
-    font-weight: bolder;
+.roletitle_div{
+    height: 350px;
+    width: 450dp;
+    /* background-color: #f9e238; */
     margin-top: 150px;
     margin-left: 50px;
-    border-bottom: .5rem solid rgb(255, 202, 12) ;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .role{

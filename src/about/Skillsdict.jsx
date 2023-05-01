@@ -1,4 +1,4 @@
-import { FaReact } from 'react-icons/fa';
+// import { FaReact } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faFileInvoice } from "@fortawesome/free-solid-svg-icons";

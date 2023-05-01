@@ -16,7 +16,7 @@ function App() {
         <Route path="/about" element={<></>} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:id" element={<Moreinfo />}></Route>
-        {/* <Route path="/contect" element={<About />} /> */}
+        <Route path="/contect" element={<About />} />
       </Routes>
     </BrowserRouter>
   );

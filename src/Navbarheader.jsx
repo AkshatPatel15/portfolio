@@ -3,10 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-import About from './about/About';
-import Projects from './projects/Projects';
-import { useState } from 'react';
-import Home from './landingpage/Home';
+
 import { Link } from 'react-router-dom';
 
 const Navbarheader = () => {

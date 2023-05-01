@@ -1,7 +1,5 @@
 import "./About.css"
 
-import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";
-import Skillsdict from "../about/Skillsdict.jsx";
 
 
 

@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 
 // import '/Users/nishvaria/NISH/Nishportfolio/portfolio/src/static.css';
 import img2 from "../resources/about_img_2.jpg";
-import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";
 import Skillscard from "./Skillscard";
 import Skillsdict from "./Skillsdict";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

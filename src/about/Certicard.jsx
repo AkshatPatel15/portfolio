@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../about/About.css";
-import { Button } from "bootstrap";+++
+import { Button } from "bootstrap";
 
 
 function Certicard(props) {

@@ -6,6 +6,7 @@ import youtube from '../resources/youtube.svg'
 import twitter from '../resources/twitter.svg'
 import { Button, Container } from 'react-bootstrap'
 import './Contact.css'
+import { Link } from 'react-router-dom'
 
 
 export default function Contact(){
@@ -44,15 +45,12 @@ export default function Contact(){
       </main>
 
       <footer>
-        <a href="#" target="_blank"><img className="social-media-img" src={facebook} alt="Facebook" /></a>
-        <a href="#" target="_blank"><img className="social-media-img" src={github} alt="GitHub" /></a>
-        <a href="#" target="_blank"><img className="social-media-img" src={instagram} alt="Instagram" /></a>
-
-        <a href="#"><img className="codecell-img" src="./static/img/codecell_logo.svg" alt="TSEC CodeCell" /></a>
-
-        <a href="#" target="_blank"><img className="social-media-img" src={linkedIn} alt="LinkedIn" /></a>
-        <a href="#" target="_blank"><img className="social-media-img" src={twitter} alt="Twitter" /></a>
-        <a href="#" target="_blank"><img className="social-media-img" src={youtube} alt="YouTube" /></a>
+        <Link to="#" target="_blank"><img className="social-media-img" src={facebook} alt="Facebook" /></Link>
+        <Link to="#" target="_blank"><img className="social-media-img" src={github} alt="GitHub" /></Link>
+        <Link to="#" target="_blank"><img className="social-media-img" src={instagram} alt="Instagram" /></Link>
+        <Link to="#" target="_blank"><img className="social-media-img" src={linkedIn} alt="LinkedIn" /></Link>
+        <Link to="#" target="_blank"><img className="social-media-img" src={twitter} alt="Twitter" /></Link>
+        <Link to="#" target="_blank"><img className="social-media-img" src={youtube} alt="YouTube" /></Link>
       </footer>
     </Container>
     )

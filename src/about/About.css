@@ -74,7 +74,7 @@
 
 }
 
-.subdiv2{
+.sectionabout{
     height: 350px;
     margin-top: 50px;
     width: 950px;
@@ -102,7 +102,7 @@
 }
 
 
-.cardclass{    
+.sectionskill{    
     display: grid;
     justify-content: space-evenly;
     align-items: center;
@@ -123,7 +123,7 @@
   }
   
   .logo {
-    color: rgb(255, 202, 12);
+    color: rgb(62, 62, 61);
   }
 
 
@@ -133,9 +133,87 @@
   }
   
   .skillname {
-    color: rgb(255, 202, 12);
+    color: rgb(62, 62, 61);
     border-top: 0.2rem solid rgba(255, 202, 12) ;
     text-align: center;
     margin-top: 10px;
   }
   
+
+
+  .sectioncerti{    
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+}
+
+  .certicard {
+    
+    height: 220px;
+    width: 520px;
+    border-radius: 10px;
+    /* font-color: rgba(255, 202, 12); */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    /* border: 0.2rem solid rgba(255, 202, 12) ; */
+    margin: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .certilogo {
+    color: rgb(62, 62, 61);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* horizontally center the child elements */
+    align-items: center; /* vertically center the child elements */
+    text-align: center;
+    background-color: rgba(255, 202, 12,0.9);
+  }
+
+
+.certilogo svg {
+    width: 70px; /* adjust this value to make the logo bigger */
+    height: 70px; /* adjust this value to make the logo bigger */
+  }
+
+
+  .certitext{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+  
+  .certilabel {
+    border-bottom: 0.2rem solid rgba(255, 202, 12) ;
+    color: rgb(62, 62, 61);
+    text-align: center;
+  }
+
+  .certidetail {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+ 
+  .downloadlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background-color: #ffec63; */
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }

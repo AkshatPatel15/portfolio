@@ -7,6 +7,8 @@ import img2 from "/Users/nishvaria/NISH/Nishportfolio/portfolio/src/resources/ab
 import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";
 import Skillscard from "./Skillscard";
 import Skillsdict from "./Skillsdict";
+import Certicard from "./Certicard";
+import Certidict from "./Certidict";
 
 function About() {
 
@@ -19,7 +21,7 @@ function About() {
       <Container>
         <div className="maindiv">
           
-          {/* section1 from heree */}
+          {/* Intro Section from heree */}
           
             <div className="subdiv1">
               <div className="imgdiv"> 
@@ -43,9 +45,9 @@ function About() {
             </div>
             <p className="line"></p>
 
-            {/* section2 from heree */}
+            {/* About Section from heree */}
 
-            <div className="subdiv2">
+            <div className="sectionabout">
               <div className="title-about">
                 <h3>High-Level Details of My Profile</h3>
                 <div className="listview">
@@ -58,10 +60,11 @@ function About() {
                 </div>
               </div>
             </div>
+
             <p className="line"></p>
 
-            {/* section3 from heree */}
-              <div className="cardclass">
+            {/* Skills section from heree */}
+              <div className="sectionskill">
                   {Skillsdict.map((skill, index) => (
                   <Skillscard 
                     name={skill.skillname}
@@ -69,6 +72,24 @@ function About() {
                   />
                     ))}
               </div>
+
+              <p className="line"></p>
+
+              {/* Certification section from heree */}
+
+            <div className="sectioncerti">
+              <div>
+                  {Certidict.map((certi) =>(
+                    <Certicard 
+                    name={certi.certilogo}
+                    label={certi.certilabel}
+                    detail={certi.certidetail}
+                    link={certi.certilink}
+                    />
+                  ))}
+              </div>
+            </div>
+
         </div>
       </Container>
 

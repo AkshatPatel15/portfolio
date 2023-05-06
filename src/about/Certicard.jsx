@@ -17,7 +17,7 @@ function Certicard(props) {
                     <p>{props.detail}</p>
                 </div>
                 <div className="downloadlink">
-                    <a href ={props.link}><Button>Verify Certificate</Button></a>
+                    <a href ={props.link} target="_blank"><Button>Verify Certificate</Button></a>
                 </div>
             </div>
       </div>

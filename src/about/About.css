@@ -20,6 +20,7 @@
 }
 .imgdiv{
     margin-top: 50px;
+    margin-left: -100px;
     justify-content: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -142,8 +143,6 @@
     margin-top: 10px;
   }
   
-
-
   .sectioncerti{    
     display: grid;
     justify-content: space-evenly;
@@ -152,7 +151,7 @@
 }
 
   .certicard {
-    
+
     height: 220px;
     width: 520px;
     border-radius: 10px;
@@ -165,7 +164,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .certilogo {
     color: rgb(62, 62, 61);
     width: 50%;
@@ -190,7 +189,7 @@
     flex-direction: column;
     margin-left: 5px;
   }
-  
+
   .certilabel {
     border-bottom: 0.2rem solid rgba(255, 202, 12) ;
     color: rgb(62, 62, 61);
@@ -203,7 +202,7 @@
     font-weight: bold;
     text-align: center;
   }
- 
+
   .downloadlink {
     display: flex;
     justify-content: center;

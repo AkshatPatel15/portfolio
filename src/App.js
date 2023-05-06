@@ -5,6 +5,8 @@ import About from "./about/About";
 import Home from "./landingpage/Home";
 import Projects from "./projects/Projects";
 import Navbarheader from "./Navbarheader";
+import Moreinfo from "./projects/Moreinfo";
+import Contact from "./contact/Contact";
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        {/* <Route path="/contect" element={<About />} /> */}
+        <Route path="/projects/:id" element={<Moreinfo />}></Route>
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

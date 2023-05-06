@@ -2,7 +2,6 @@ import { Container } from "react-bootstrap";
 import "./Projects.css"
 import Porjectcard from "./Porjectcard";
 
-import Moreinfo from "./Moreinfo";
 import Projectsdict from "./Projectsdict";
 
 function Projects() {
@@ -23,7 +22,6 @@ function Projects() {
   
 </div>
       </div>
-      <Moreinfo></Moreinfo>
 
       </Container>
 

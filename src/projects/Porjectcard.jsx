@@ -1,5 +1,6 @@
 import { Button, Card } from "react-bootstrap";
 import "./Projects.css"
+import { Link } from "react-router-dom";
 
 
 function Porjectcard(props) {
@@ -12,7 +13,11 @@ function Porjectcard(props) {
         <Card.Text>
           {props.description}
         </Card.Text>
-        <div className="btn_contact"><Button variant="dark">Know More</Button></div>
+        <div className="btn_contact">
+        <Link to={{ pathname: `/projects/${props.name}`, state: { project: props } }}>
+              <Button variant="dark">Know More</Button>
+            </Link>
+          </div>
       </Card.Body>
     </Card>
 </div>

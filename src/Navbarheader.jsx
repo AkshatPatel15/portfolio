@@ -21,7 +21,8 @@ const Navbarheader = () => {
             <Link to="/projects" className="nav-link">Projects</Link>
           </Nav>
           <Nav>
-          <Button className='button_navbarheader' variant="dark">Contact Me</Button>
+          <Link to="/contact">
+<Button className='button_navbarheader' variant="dark">Contact Me</Button></Link>
       </Nav>
         </Container>
       </Navbar></>

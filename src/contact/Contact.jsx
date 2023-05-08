@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom'
 
 export default function Contact(){
     return(
+      <div className='main'>
         <Container>
       <main>
         <div className="title">Contact me</div>
@@ -53,5 +54,6 @@ export default function Contact(){
         <Link to="#" target="_blank"><img className="social-media-img" src={youtube} alt="YouTube" /></Link>
       </footer>
     </Container>
+    </div>
     )
 }

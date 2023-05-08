@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.main{
+    /* background-image: url('../../src/resources/pexels-tranmautritam-251225.jpg'); */
+    /* background-color: #161616; */
+    height: 92vh;
+  background-repeat: no-repeat;
+  background-position:right center  ;
+  background-size: cover;
+}
+
 /* body {
     /* background-color: black; */
     /* font-family: 'Overpass Mono'`, monospace; */

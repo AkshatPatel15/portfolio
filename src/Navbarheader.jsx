@@ -14,11 +14,12 @@ const Navbarheader = () => {
 
         <>          <Navbar className='navbar-custom'>
         <Container>
-          <Navbar.Brand > Akshat Patel</Navbar.Brand>
+          <Navbar.Brand > Nish Varia</Navbar.Brand>
           <Nav className="me-auto">
           <Link to="/" className="nav-link">Home</Link>
             <Link to="/about" className="nav-link">About</Link>
             <Link to="/projects" className="nav-link">Projects</Link>
+            <a href="/logo.svg" className="nav-link" >Resume</a>
           </Nav>
           <Nav>
           <Link to="/contact">

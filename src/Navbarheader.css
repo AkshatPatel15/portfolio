@@ -9,6 +9,10 @@
     opacity: 1;
 }
 
+.resume{
+    background-color: none;
+}
+
 .button_navbarheader{
     border-radius: 6%;
 }

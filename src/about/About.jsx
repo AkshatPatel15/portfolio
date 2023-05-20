@@ -4,8 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 import img2 from "../resources/about.jpeg";
 import { IoLogoLinkedin,IoIosMail,IoIosPhonePortrait, IoLogoGithub } from "react-icons/io";
-import Skillscard from "./Skillscard";
-import Skillsdict from "./Skillsdict";
+
 
 function About() {
 
@@ -21,9 +20,9 @@ function About() {
     Motivated and detail-oriented junior full-stack developer with a sturdy foundation in Computer Science, specializing in React.js and Python (Flask). Eager to contribute to dynamic projects and collaborate with cross-functional teams to deliver high-quality solutions. Passionate about learning and staying up to date with emerging technologies.
   </p>
   <a href="mailto:varia.nish68@gmail.com"><IoIosMail></IoIosMail></a>
-  <a href="tel:+17057700631" target="_blank"><IoIosPhonePortrait></IoIosPhonePortrait></a>
-  <a href="https://www.linkedin.com/in/nishvariabusinessanalyst/" target="_blank"><IoLogoLinkedin></IoLogoLinkedin></a>
-  <a href="https://www.linkedin.com/in/nishvariabusinessanalyst/" target="_blank"><IoLogoGithub></IoLogoGithub></a>
+  <a href="tel:+17057700631" ><IoIosPhonePortrait></IoIosPhonePortrait></a>
+  <a href="https://www.linkedin.com/in/nishvariabusinessanalyst/" ><IoLogoLinkedin></IoLogoLinkedin></a>
+  <a href="https://www.linkedin.com/in/nishvariabusinessanalyst/"><IoLogoGithub></IoLogoGithub></a>
 </div>
 
 <p></p>

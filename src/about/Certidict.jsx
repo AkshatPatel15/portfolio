@@ -1,7 +1,5 @@
-import { FaReact } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact,faGoogle,faLinkedinIn, faJava, faJira, faPython, faAndroid, faGithub, faBitcoin} from "@fortawesome/free-brands-svg-icons";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 
 
 const Certidict = [

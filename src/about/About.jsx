@@ -11,10 +11,6 @@ import Certidict from "./Certidict";
 
 function About() {
 
-  const mailto = () =>{
-
-
-  }
   return (
     <div className="static">
       <Container>
@@ -36,10 +32,10 @@ function About() {
                     Interviewed stakeholders to gather information on systems, boosting the requirement gathering
                     as compared to other groups and delivering the project before the deadline.</p>
 
-                    <a href = "mailto:varia.nish68@gmail.com"><IoIosMail className="mail"></IoIosMail></a>
-                    <a href = "tel:+17057700631" target="_blank"><IoIosPhonePortrait className="mob" ></IoIosPhonePortrait></a> 
-                    <a href = "https://www.linkedin.com/in/nishvariabusinessanalyst/" target="_blank"><IoLogoLinkedin className="mob"/></a>
-                    <a href = "https://www.linkedin.com/in/nishvariabusinessanalyst/" target="_blank"><IoLogoGithub   className="mob"/></a>
+                    <a href = "mailto:varia.nish68@gmail.com" ><IoIosMail className="mail"></IoIosMail></a>
+                    <a href = "tel:+17057700631" target="_blank" rel="noreferrer"><IoIosPhonePortrait className="mob" ></IoIosPhonePortrait></a> 
+                    <a href = "https://www.linkedin.com/in/nishvariabusinessanalyst/" target="_blank" rel="noreferrer"><IoLogoLinkedin className="mob"/></a>
+                    <a href = "https://www.linkedin.com/in/nishvariabusinessanalyst/" target="_blank" rel="noreferrer"><IoLogoGithub   className="mob"/></a>
               </div>
             </div>
             <p className="line"></p>

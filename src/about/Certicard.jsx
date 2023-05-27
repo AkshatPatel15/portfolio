@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../about/About.css";
 import  Button  from "react-bootstrap/Button";
 
@@ -17,7 +16,7 @@ function Certicard(props) {
                     <p>{props.detail}</p>
                 </div>
                 <div className="downloadlink">
-                    <a href ={props.link} target="_blank"><Button>Verify Certificate</Button></a>
+                    <a href ={props.link} target="_blank" rel="noreferrer"><Button>Verify Certificate</Button></a>
                 </div>
             </div>
       </div>

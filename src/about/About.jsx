@@ -8,7 +8,7 @@ import Skillscard from "./Skillscard";
 import Skillsdict from "./Skillsdict";
 
 function About() {
-
+  return (
     <div className="static">
       <Container>
         <div className="maindiv">

@@ -9,11 +9,6 @@ import Skillsdict from "./Skillsdict";
 
 function About() {
 
-  const mailto = () =>{
-
-
-  }
-  return (
     <div className="static">
       <Container>
         <div className="maindiv">
